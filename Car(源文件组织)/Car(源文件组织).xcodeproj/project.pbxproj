@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78F53902508BCED0039A674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F538F2508BCED0039A674 /* AppDelegate.m */; };
+		A78F53932508BCED0039A674 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F53922508BCED0039A674 /* SceneDelegate.m */; };
+		A78F53962508BCED0039A674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F53952508BCED0039A674 /* ViewController.m */; };
+		A78F53992508BCED0039A674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78F53972508BCED0039A674 /* Main.storyboard */; };
+		A78F539B2508BCEE0039A674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78F539A2508BCEE0039A674 /* Assets.xcassets */; };
+		A78F539E2508BCEE0039A674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78F539C2508BCEE0039A674 /* LaunchScreen.storyboard */; };
+		A78F53A12508BCEE0039A674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F53A02508BCEE0039A674 /* main.m */; };
+		A78F53A92508BF800039A674 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F53A82508BF800039A674 /* Tire.m */; };
+		A78F53AC2508BF8E0039A674 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F53AB2508BF8E0039A674 /* Engine.m */; };
+		A78F53AF2508D6940039A674 /* AllWeatherRadial.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F53AE2508D6940039A674 /* AllWeatherRadial.m */; };
+		A78F53B22508D6A50039A674 /* Slant6.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F53B12508D6A40039A674 /* Slant6.m */; };
+		A78F53B82508D6CF0039A674 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = A78F53B72508D6CF0039A674 /* Car.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A78F538B2508BCED0039A674 /* Car(源文件组织).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car(源文件组织).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78F538E2508BCED0039A674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A78F538F2508BCED0039A674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A78F53912508BCED0039A674 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A78F53922508BCED0039A674 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A78F53942508BCED0039A674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A78F53952508BCED0039A674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A78F53982508BCED0039A674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A78F539A2508BCEE0039A674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A78F539D2508BCEE0039A674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A78F539F2508BCEE0039A674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78F53A02508BCEE0039A674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A78F53A72508BF800039A674 /* Tire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		A78F53A82508BF800039A674 /* Tire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		A78F53AA2508BF8E0039A674 /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		A78F53AB2508BF8E0039A674 /* Engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		A78F53AD2508D6940039A674 /* AllWeatherRadial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllWeatherRadial.h; sourceTree = "<group>"; };
+		A78F53AE2508D6940039A674 /* AllWeatherRadial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllWeatherRadial.m; sourceTree = "<group>"; };
+		A78F53B02508D6A40039A674 /* Slant6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slant6.h; sourceTree = "<group>"; };
+		A78F53B12508D6A40039A674 /* Slant6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slant6.m; sourceTree = "<group>"; };
+		A78F53B62508D6CF0039A674 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		A78F53B72508D6CF0039A674 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78F53882508BCED0039A674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78F53822508BCED0039A674 = {
+			isa = PBXGroup;
+			children = (
+				A78F538D2508BCED0039A674 /* Car(源文件组织) */,
+				A78F538C2508BCED0039A674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78F538C2508BCED0039A674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78F538B2508BCED0039A674 /* Car(源文件组织).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78F538D2508BCED0039A674 /* Car(源文件组织) */ = {
+			isa = PBXGroup;
+			children = (
+				A78F538E2508BCED0039A674 /* AppDelegate.h */,
+				A78F538F2508BCED0039A674 /* AppDelegate.m */,
+				A78F53912508BCED0039A674 /* SceneDelegate.h */,
+				A78F53922508BCED0039A674 /* SceneDelegate.m */,
+				A78F53942508BCED0039A674 /* ViewController.h */,
+				A78F53952508BCED0039A674 /* ViewController.m */,
+				A78F53972508BCED0039A674 /* Main.storyboard */,
+				A78F539A2508BCEE0039A674 /* Assets.xcassets */,
+				A78F539C2508BCEE0039A674 /* LaunchScreen.storyboard */,
+				A78F539F2508BCEE0039A674 /* Info.plist */,
+				A78F53A02508BCEE0039A674 /* main.m */,
+				A78F53A72508BF800039A674 /* Tire.h */,
+				A78F53A82508BF800039A674 /* Tire.m */,
+				A78F53AA2508BF8E0039A674 /* Engine.h */,
+				A78F53AB2508BF8E0039A674 /* Engine.m */,
+				A78F53AD2508D6940039A674 /* AllWeatherRadial.h */,
+				A78F53AE2508D6940039A674 /* AllWeatherRadial.m */,
+				A78F53B02508D6A40039A674 /* Slant6.h */,
+				A78F53B12508D6A40039A674 /* Slant6.m */,
+				A78F53B62508D6CF0039A674 /* Car.h */,
+				A78F53B72508D6CF0039A674 /* Car.m */,
+			);
+			path = "Car(源文件组织)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78F538A2508BCED0039A674 /* Car(源文件组织) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78F53A42508BCEE0039A674 /* Build configuration list for PBXNativeTarget "Car(源文件组织)" */;
+			buildPhases = (
+				A78F53872508BCED0039A674 /* Sources */,
+				A78F53882508BCED0039A674 /* Frameworks */,
+				A78F53892508BCED0039A674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car(源文件组织)";
+			productName = "Car(源文件组织)";
+			productReference = A78F538B2508BCED0039A674 /* Car(源文件组织).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78F53832508BCED0039A674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = haotian;
+				TargetAttributes = {
+					A78F538A2508BCED0039A674 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = A78F53862508BCED0039A674 /* Build configuration list for PBXProject "Car(源文件组织)" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78F53822508BCED0039A674;
+			productRefGroup = A78F538C2508BCED0039A674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78F538A2508BCED0039A674 /* Car(源文件组织) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78F53892508BCED0039A674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F539E2508BCEE0039A674 /* LaunchScreen.storyboard in Resources */,
+				A78F539B2508BCEE0039A674 /* Assets.xcassets in Resources */,
+				A78F53992508BCED0039A674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78F53872508BCED0039A674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78F53B82508D6CF0039A674 /* Car.m in Sources */,
+				A78F53A92508BF800039A674 /* Tire.m in Sources */,
+				A78F53AF2508D6940039A674 /* AllWeatherRadial.m in Sources */,
+				A78F53962508BCED0039A674 /* ViewController.m in Sources */,
+				A78F53B22508D6A50039A674 /* Slant6.m in Sources */,
+				A78F53902508BCED0039A674 /* AppDelegate.m in Sources */,
+				A78F53A12508BCEE0039A674 /* main.m in Sources */,
+				A78F53932508BCED0039A674 /* SceneDelegate.m in Sources */,
+				A78F53AC2508BF8E0039A674 /* Engine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A78F53972508BCED0039A674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78F53982508BCED0039A674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A78F539C2508BCEE0039A674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78F539D2508BCEE0039A674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78F53A22508BCEE0039A674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A78F53A32508BCEE0039A674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78F53A52508BCEE0039A674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Car(源文件组织)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haotian.Car-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A78F53A62508BCEE0039A674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Car(源文件组织)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haotian.Car-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78F53862508BCED0039A674 /* Build configuration list for PBXProject "Car(源文件组织)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78F53A22508BCEE0039A674 /* Debug */,
+				A78F53A32508BCEE0039A674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78F53A42508BCEE0039A674 /* Build configuration list for PBXNativeTarget "Car(源文件组织)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78F53A52508BCEE0039A674 /* Debug */,
+				A78F53A62508BCEE0039A674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78F53832508BCED0039A674 /* Project object */;
+}
