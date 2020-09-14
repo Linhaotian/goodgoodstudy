@@ -22,22 +22,29 @@
 int main(int argc, char * argv[]) {
     NSString * appDelegateClassName;
     @autoreleasepool {
-        // Setup code that might create autoreleased objects goes here.
+        
         appDelegateClassName = NSStringFromClass([AppDelegate class]);
+        
+        Car *car = [[Car alloc] init];
+        
+        for (int i = 0; i < 4; i++) {
+            AllWeatherRadial *tire = [[AllWeatherRadial alloc] initWithPressure:23 + i treadDepth:33 - i];
+            
+            [car setTire:tire atIndex:i];
+            
+            [tire release];
+        }
+        
+        Engine *engine = [[Slant6 alloc] init];
+        
+        [car setEngine:engine];
+        
+        [car print];
+        
+        [car release];
     }
     
-    Car *car = [Car new];
     
-    for (int i = 0; i < 4; i++) {
-        Tire *tire = [AllWeatherRadial new];
-        [car setTire:tire atIndex:i];
-    }
     
-    Engine *engine = [Slant6 new];
-    
-    [car setEngine:engine];
-    
-    [car print];
-    
-    return UIApplicationMain(argc, argv, nil, appDelegateClassName);
+    return 0;
 }

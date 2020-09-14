@@ -16,54 +16,53 @@
 
 @end
 
-@implementation Car {
-    Engine *engine;
-    Tire *tires[4];
+@implementation Car 
+
+- (id)init {
+    if (self = [super init]) {
+        
+        tires = [[NSMutableArray alloc] init];
+        
+        for (int i = 0;  i < 4; i++) {
+            [tires addObject:[NSNull null]];
+        }
+    }
+    return (self);
 }
 
-- (void)setEngine:(Engine *)newEngine {
+- (void)setEngine:(Engine *)newEngine { //保留以前对象 释放当前对象
+    [newEngine retain];
+    [engine release];
     engine = newEngine;
 }
 
 - (Engine *)engine {
-    return (engine);
+    return engine;
 }
 
 - (void)setTire:(Tire *)tire atIndex:(int)index {
-    if (index  <0 || index > 3){
-        NSLog(@"bad index (%d) in setTire:atIndex:", index);
-        exit(1);
-    }
-    tires[index] = tire;
+    [tires replaceObjectAtIndex:index withObject:tire];
 }
 
 - (Tire *)tireAtIndex:(int)index {
-    if (index < 0 || index > 3) {
-        NSLog(@"bad index (%d) in setTire:atIndex:", index);
-        exit(1);
-    }
-    return tires[index];
+    Tire *tire = [tires objectAtIndex:index];
+    
+    return tire;
 }
-
-//- (id)init {
-//    if (self = [super init]) {
-//        engine = [Engine new];
-//        tires[0] = [Tire new];
-//        tires[1] = [Tire new];
-//        tires[2] = [Tire new];
-//        tires[3] = [Tire new];
-//    }
-//    return (self);
-//}
 
 - (void)print {
     
-    NSLog(@"%@", tires[0]);
-    NSLog(@"%@", tires[1]);
-    NSLog(@"%@", tires[2]);
-    NSLog(@"%@", tires[3]);
-    
+    for (int i = 0 ; i < 4; i ++) {
+        NSLog(@"%@", [self tireAtIndex:i]);
+    }
     NSLog(@"%@", engine);
+}
+
+- (void) dealloc {
+    [tires release];
+    [engine release];
+    
+    [super dealloc];
 }
 
 @end

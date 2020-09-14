@@ -319,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Car(源文件组织)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +327,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haotian.Car-------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Car(源文件组织)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -335,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Car(源文件组织)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.haotian.Car-------";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Car(源文件组织)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

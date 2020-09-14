@@ -10,7 +10,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AllWeatherRadial : Tire
+@interface AllWeatherRadial : Tire {
+    float rainHandling; //轮胎潮湿路面性能能
+    float snowHandling; //积雪
+}
+
+- (void)setRainHandling:(float)rainHandling;
+- (float)rainHandling;
+
+- (void)setSnowHandling:(float)snowHandling;
+- (float)snowHandling;
 
 @end
 

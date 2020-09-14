@@ -10,7 +10,22 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Tire : NSObject
+@interface Tire : NSObject {
+    float pressure;
+    float treadDepth;
+}
+
+- (id)initWithPressure:(float)pressure;
+
+- (id)initWithTreadDepth:(float)treadDepth;
+
+- (id)initWithPressure:(float)pressure treadDepth:(float)treadDepth;
+
+- (void)setPressure: (float)pressure;
+- (float)pressure;
+
+- (void)setTreadDepth: (float)treadDepth;
+- (float)treadDepth;
 
 @end
 

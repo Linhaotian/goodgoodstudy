@@ -14,7 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @class Engine;
 
-@interface Car : NSObject
+@interface Car : NSObject {
+    NSMutableArray *tires;
+    Engine *engine;
+}
 
 - (void)setEngine:(Engine *)newEngine;
 
