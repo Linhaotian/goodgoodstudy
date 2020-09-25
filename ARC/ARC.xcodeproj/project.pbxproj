@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A762F1F8251C9581008E9039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A762F1F7251C9581008E9039 /* main.m */; };
-		A762F200251C990D008E9039 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = A762F1FF251C990D008E9039 /* test.m */; };
+		A762F200251C990D008E9039 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A762F1FF251C990D008E9039 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		A762F1F4251C9581008E9039 /* ARC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ARC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A762F1F7251C9581008E9039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A762F1FE251C990D008E9039 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		A762F1FF251C990D008E9039 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		A762F1FE251C990D008E9039 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		A762F1FF251C990D008E9039 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A762F1F7251C9581008E9039 /* main.m */,
-				A762F1FE251C990D008E9039 /* test.h */,
-				A762F1FF251C990D008E9039 /* test.m */,
+				A762F1FE251C990D008E9039 /* Test.h */,
+				A762F1FF251C990D008E9039 /* Test.m */,
 			);
 			path = ARC;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A762F1F8251C9581008E9039 /* main.m in Sources */,
-				A762F200251C990D008E9039 /* test.m in Sources */,
+				A762F200251C990D008E9039 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,8 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface test : NSObject {
-    id __strong obj_;
+@interface Test : NSObject {
+//    id __strong obj_;
+    id __weak obj_; //避免循环引用
 }
 
 - (void)setObject: (id __strong)obj;

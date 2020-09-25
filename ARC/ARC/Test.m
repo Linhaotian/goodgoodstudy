@@ -6,9 +6,9 @@
 //  Copyright © 2020 haotian. All rights reserved.
 //
 
-#import "test.h"
+#import "Test.h"
 
-@implementation test
+@implementation Test
 
 - (id)init {
     self = [super init];
